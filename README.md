@@ -1,6 +1,6 @@
 ### Typography plus Burmese Classic Poems
 
-This is a project inspired by <a href="femmebot.github.io/google-type/" target="_blank">Google Type</a>.
+This is a project inspired by <a href="http://femmebot.github.io/google-type/" target="_blank">Google Type</a>.
 
 #### Contribution
 Anyone who is interesting about web typography and classic poems can be contributed to this open project.
