@@ -1,0 +1,22 @@
+/*overwrite bootstrap css*/
+
+html,body{
+	background-color:#1dd2af: 
+}
+
+div#landing h1{
+	text-align: center;
+	align:center;
+	font-size:7em;
+	font-family: "PlayFair Display",serif;
+	color: #34495e;	
+}
+div#landing{background: #ecf0f1;}/*url(../imgs/72H.jpg) no-repeat center center fixed;width:100%;Height:100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;overflow: hidden;}*/
+
+div#landing p{	
+	font-family: "Lora",serif;
+	font-size: 1.5em;
+	color: #7f8c8d;	
+	margin: 2em;
+	float: left;
+}
