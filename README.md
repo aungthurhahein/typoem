@@ -1,9 +1,9 @@
 ### Typography plus Burmese Classic Poems
 
-This is a project inspired by <a href="http://femmebot.github.io/google-type/" target="_blank">Google Type</a>.
-
 #### Contribution
-Anyone who is interesting about web typography and classic poems can be contributed to this open project.
+Anyone who is interesting about web typography and classic poems can be contributed to this open project. Pull request this repo for contribution.
+
+It is initiated by <a href="https://github.com/aungthurhahein">ATRX</a>, <a href="https://github.com/winminsoe">WMS</a> & <a href="https://github.com/yemaw">YM</a>.
 
 
 #### Resources:
@@ -18,6 +18,7 @@ Typography Inspiration:
 * <a href="http://www.typewolf.com/" target="_blank">Type Wolf</a>
 * <a href="http://www.typegenius.com/" target="blank">Type Genius</a>
 
+This is a project inspired by <a href="http://femmebot.github.io/google-type/" target="_blank">Google Type</a>.
 
 
 
