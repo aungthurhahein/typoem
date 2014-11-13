@@ -4,19 +4,58 @@ html,body{
 	background-color:#1dd2af: 
 }
 
-div#landing h1{
-	text-align: center;
-	align:center;
-	font-size:7em;
-	font-family: "PlayFair Display",serif;
-	color: #34495e;	
-}
-div#landing{background: #ecf0f1;}/*url(../imgs/72H.jpg) no-repeat center center fixed;width:100%;Height:100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;overflow: hidden;}*/
+/*landing page*/
 
-div#landing p{	
-	font-family: "Lora",serif;
-	font-size: 1.5em;
-	color: #7f8c8d;	
-	margin: 2em;
-	float: left;
+.landing{background: #282828;min-height: 690px;}
+
+.landing h1{
+	text-align: center;
+	font-size:8em;
+	font-family: 'Gentium Book Basic',serif;
+	color: #ecf0f1;	
+    text-transform: uppercase;
 }
+.landing h1.amp{
+	font-family: 'Playfair Display',serif;
+}
+
+.landing p{	
+	font-family: 'Lora',serif;
+	font-size: 1.5em;
+	color: #bdc3c7;	
+	padding: 2em;
+	margin-top: 1em;
+}
+
+/*short_pipe*/
+
+.short-pipe{
+	background: #bdc3c7 url(../imgs/smoke.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+.short-pipe h2{
+	font-family: 'Merriweather',serif;
+	font-size: 6em;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.short-pipe p{
+	margin: 2em;
+	font-family: 'Josefin Sans',sans-serif;
+	font-size: 3em;
+}
+.short-pipe span{
+	display: block;
+    
+}
+.short-pipe span.author{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;   
+    padding-left: 7em;
+}
+
+
