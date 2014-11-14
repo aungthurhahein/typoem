@@ -62,8 +62,59 @@ a:focus {
     padding-left: 7em;
 }
 
-/** poem 3 **/
+/*padauk*/
+.padauk{
+	background: #f1c40f;
+	color: #c33a2c;
+}
+.padauk h2{
+	font-family: 'Playfair Display',serif;
+	font-size:4em;
+	letter-spacing: 10px; 
+	color:#c0392b;
+	text-align: center;
+	padding: 0 0 1em 0;
+	font-weight: 200;
+}
+.padauk h2 span{
+	font-family:'Montserrat', serif;
+	display: block;
+	font-weight:800;
+	color: #d35400;
+}
+.padauk p{
+	font-family: 'Great Vibes', cursive;
+	font-size: 2em;
+	padding-left:10%;
+}
 
+.padauk p.alt{
+	padding-left: 50%;	
+}
+
+.padauk p span{		
+	font-size: 2.1em;
+	text-transform: capitalize;
+	display: block;
+}
+.padauk span.author{    
+    font-size: 0.8em;   
+    padding-left: 10em;    
+}
+
+/*layout break*/
+@media all and (max-width: 768px){
+	.padauk p{
+		padding-top: 10%;
+		padding-left: 0;
+		text-align: center;
+	}
+	.padauk p.alt{
+		padding-left:0;			
+	}	
+}
+
+/** poem 3 **/
 .poem__3 {
 	padding: 10%;
 	font-family: 'Shadows Into Light', cursive;
