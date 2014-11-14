@@ -65,7 +65,33 @@ a:focus {
     font-size: 0.8em;   
     padding-left: 7em;
 }
+.short-pipe span.fonts{
+	font-family: 'Oswald', sans-serif;
+    font-size: 0.6em; 
+    float: right;  
+    padding: 1em;
+}
+.short-pipe span.fonts a{
+	color: #eee;
+}
+.short-pipe span.fonts a:hover{
+	color: #bdc3c7;
+}
 /*short_pipe*/
+
+/*song forest*/
+.song-forest span.fonts{
+	font-family: 'Oswald', sans-serif;
+    font-size: 0.6em; 
+    float: left;      
+}
+.song-forest span.fonts a{
+	color: #eee;
+}
+.song-forest span.fonts a:hover{
+	color: #bdc3c7;
+}
+/*song forest*/
 
 /*padauk*/
 .padauk{
@@ -105,6 +131,18 @@ a:focus {
 .padauk span.author{    
     font-size: 0.8em;   
     padding-left: 10em;    
+}
+.padauk span.fonts{
+	font-family: 'Oswald', sans-serif;
+    font-size: 0.6em; 
+    float: right; 
+    padding: 1em;     
+}
+.padauk span.fonts a{
+	color: #2980b9;
+}
+.padauk span.fonts a:hover{
+	color: #3498db;
 }
 
 /*layout break*/
