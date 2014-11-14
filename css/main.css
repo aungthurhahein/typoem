@@ -4,6 +4,10 @@ html,body{
 	background-color:#1dd2af: 
 }
 
+a:focus {
+	outline: none;
+}
+
 /*landing page*/
 
 .landing{background: #282828;min-height: 690px;}
@@ -58,6 +62,54 @@ html,body{
     padding-left: 7em;
 }
 
+/** poem 3 **/
+
+.poem__3 {
+	padding: 10%;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	color: #f0f0f0;
+	background: #fff url(../imgs/poem_3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.poem__3 h2 {
+	font-size: 3em;
+	margin-bottom: 10%;
+}
+.poem__3 .used__font {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0.4em;
+	-ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+    margin: 5% 0 0 -3%
+}
+.poem__3 .used__font a {
+	font-size: 1em;
+}
+.poem__3 a {
+	font-weight: bold;
+	font-style: italic;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.poem__3 p:nth-child(2) {
+	margin: 7% 0 7% -20%;
+}
+
+.poem__3 .popover-content{
+	color: #313131;
+	font-style: italic;
+	opacity: 0.8
+}
 
 /*typesettings*/
 @media screen and (min-width: 320px){
