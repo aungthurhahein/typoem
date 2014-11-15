@@ -34,12 +34,34 @@
 	
 	<!-- padauk -->
 	<link href='http://fonts.googleapis.com/css?family=Great+Vibes|Montserrat' rel='stylesheet' type='text/css'>
-	<title>Typeom</title>
+	
+	<!-- rain -->
+	<link href='http://fonts.googleapis.com/css?family=Convergence|Droid+Serif' rel='stylesheet' type='text/css'>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
 			typoem.initialize();
 		})
+		// number of drops created.
+		var nbDrop = 858; 
+
+		// function to generate a random number range.
+		function randRange( minNum, maxNum) {
+		  return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
+		}
+
+		// function to generate drops
+		function createRain() {
+			for( i=1;i<nbDrop;i++) {
+			var dropLeft = randRange(0,1600);
+			var dropTop = randRange(-1000,1400);
+			$('.rain2').append('<div class="drop" id="drop'+i+'"></div>');
+			$('#drop'+i).css('left',dropLeft);
+			$('#drop'+i).css('top',dropTop);
+			}
+		}
+		// Make it rain
+		createRain();
 	</script>	
 </head>
 
@@ -167,7 +189,6 @@
 		</div>
 	</div>
 	<!-- /Poem 3 End -->
-
 	<!-- padauk -->
 	<div class="container-fluid padauk">
 		<div class="row">
@@ -213,6 +234,43 @@
 		</div>
 	</div>
 	<!-- /padauk -->
-	
+
+	<!-- RAIN -->	
+	<div class="container-fluid rain-container">
+		<div class="row header rain">				
+				
+				<h2>
+				<span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
+				<span class="header">rain</span>
+				<span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
+				</h2>		
+				<p>
+					When soft breezes blow<br/>
+					Rare fragrance spreads<br/>
+					From the saga flowers<br/>
+					Growing on the not far-off<br/>
+					Mountain of the Giant's Palace.<br/>
+				</p>
+				<p>
+					Dark becomes the horizon<br/>
+					Enveloping us from the south in gloom.<br/>
+					Melancholy assails my heart.<br/>
+				</p>
+				<p>
+					Oh, Rain God, do not cause us sorrow!<br/>
+					Do not cause us sorrow, Rain down and<br/>
+					All the eight directions will look gloomy.<br/>
+					And the rain will sadden us in many ways.<br/>
+				</p>
+				<p class="poet">
+					Myavati Mingyi U Sa.
+				</p>
+				<span class="fonts">
+					<a href="http://www.google.com/fonts/specimen/Droid+Serif" target="_blank">Droid Serif</a>
+					<a href="http://www.google.com/fonts/specimen/Convergence" target="_blank">Convergence</a>	
+				</span>			
+		</div>
+	</div>
+	<!-- RAIN -->	
 </body>
 </html>

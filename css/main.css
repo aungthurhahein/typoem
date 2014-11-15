@@ -197,6 +197,61 @@ a:hover{
 }
 /*padauk*/
 
+/*rain*/
+.rain{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+.rain-container{
+	background: #bdc3c7 url(../imgs/rain.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+.rain h2{
+	 font-family: 'Droid Serif', serif;
+	 letter-spacing: 5px;
+	 text-transform: uppercase;
+	 font-size: 2em;
+	 text-align: center;
+	 padding:1em 0 1em 0;	
+	 color: #36454F; 
+}
+.rain span.header{
+	border-bottom: 4px double #36454F;
+	padding-bottom:0.5em;
+
+}
+.rain p{
+	vertical-align: middle;
+	font-family: 'Convergence', sans-serif;
+	font-size: 0.6em;
+	width: 50%;
+	margin:0 auto;	
+	text-indent: inherit;
+	padding: 1em 0 1em 0;
+	color: #F0F8FF;
+}
+.rain p.poet{
+	font-family: 'Oswald', sans-serif;	
+}
+.rain span.fonts{
+	font-family: 'Oswald', sans-serif;
+    font-size: 0.6em; 
+    float: right; 
+    padding: 1em;     
+}
+.rain span.fonts a{
+	color: #F0FFFF;
+}
+.rain span.fonts a:hover{
+	color: #F5F5DC;
+}
+/*rain*/
+
 /** poem 3 **/
 .poem__3 {
 	padding: 10%;
