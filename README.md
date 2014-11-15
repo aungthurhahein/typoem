@@ -3,7 +3,7 @@
 #### Contribution
 Anyone who is interesting about web typography and classic poems can be contributed to this open project. Pull request this repo for contribution.
 
-It is initiated by <a href="https://github.com/aungthurhahein">ATRX</a>, <a href="https://github.com/winminsoe">WMS</a>, <a href="https://github.com/yemaw">YM</a> & <a href="https://github.com/zawwinhlaing">ZWL</a>
+It is initiated by <a href="https://github.com/aungthurhahein">ATRX</a>, <a href="https://github.com/winminsoe">WMS</a>, <a href="https://github.com/yemaw">YM</a>.
 
 
 #### Resources:

@@ -74,13 +74,12 @@ a:hover{
 }
 .short-pipe p{
 	margin: 2em;
-	font-family: 'Josefin Sans',sans-serif;
-	font-size: 2em;
+	font-family: 'Merriweather Sans',sans-serif;	
+	font-size: 1.5em;
+	line-height: 1.5;
 }
 .short-pipe span{
-	display: block;
-	padding-bottom: 5px;
-    
+	display: block;	    
 }
 .short-pipe span.author{
     font-family: 'Oswald', sans-serif;
@@ -99,6 +98,23 @@ a:hover{
 .short-pipe span.fonts a:hover{
 	color: #bdc3c7;
 }
+.short-pipe p span.quote:before {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 2em;
+	content:open-quote; 
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.3em;
+}
+.short-pipe p span.quote:after {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 2em;
+	content:close-quote;
+	line-height:.1em;
+	margin-right:.25em;
+	vertical-align:-.3em;
+}
+
 @media all and (max-width: 768px){
 	.short-pipe h2{
 		font-size: 3em;
@@ -223,7 +239,6 @@ a:hover{
 .rain span.header{
 	border-bottom: 4px double #36454F;
 	padding-bottom:0.5em;
-
 }
 .rain p{
 	vertical-align: middle;
@@ -259,13 +274,13 @@ a:hover{
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
+    background-size: cover;        
+    overflow: hidden;    
     cursor: url('../imgs/leaf_icon.png'), auto; /*ie*/
     cursor: -webkit-image-set(
 	  url('../imgs/leaf_icon.png') 1x,
 	  url('../imgs/leaf_icon.png') 2x
-	), auto;
+	), auto;	    
 }
 .mountain h2{
 	font-family: 'Fjalla One', sans-serif;
@@ -286,8 +301,8 @@ a:hover{
     padding-left: 5%;
 }
 
-.mountain p:hover,h2:hover {
-    -webkit-filter: opacity(0.6);
+.mountain h2:hover {
+    -webkit-filter: opacity(0.6);   
 }
 .mountain p{
 	font-family: 'Crete Round', serif;	
@@ -329,7 +344,6 @@ a:hover{
 .mountain span.fonts a:hover{
 	color: #27ae60;
 }
-
 
 @media all and (max-width: 768px){
 	.mountain h2{
