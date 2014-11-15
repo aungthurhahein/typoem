@@ -4,8 +4,12 @@ html,body{
 	background-color:#1dd2af: 
 }
 
+/*anchor link */
 a:focus {
 	outline: none;
+}
+a:hover{
+	text-decoration: none;
 }
 
 /*landing page*/
@@ -34,6 +38,23 @@ a:focus {
 	display:block;
 	float:right;
 }
+.landing a:hover{
+	transition-property: background;
+	background: #2c3e50;
+	border-radius: 5px;
+}
+.landing a:before{
+	content: "» ";
+}
+
+.landing span.butterick a:before{
+	content: "§1.1 ";
+}
+@media all and (max-width: 768px){
+	.landing h1{
+		font-size: 3em;
+	}
+}
 /*landing page*/
 
 /*short_pipe*/
@@ -58,6 +79,7 @@ a:focus {
 }
 .short-pipe span{
 	display: block;
+	padding-bottom: 5px;
     
 }
 .short-pipe span.author{
@@ -76,6 +98,14 @@ a:focus {
 }
 .short-pipe span.fonts a:hover{
 	color: #bdc3c7;
+}
+@media all and (max-width: 768px){
+	.short-pipe h2{
+		font-size: 3em;
+	}
+	.short-pipe p{
+		font-size: 1.5em;
+	}
 }
 /*short_pipe*/
 
@@ -147,14 +177,23 @@ a:focus {
 
 /*layout break*/
 @media all and (max-width: 768px){
+	.padauk h2{
+		font-size: 2em;
+		letter-spacing:0;
+	}
 	.padauk p{
-		padding-top: 10%;
-		padding-left: 0;
-		text-align: center;
+		padding-left: 20%;
+		text-align: left;
+		font-size: 1em;
+		padding-bottom: 5%;
 	}
 	.padauk p.alt{
-		padding-left:0;			
-	}	
+		padding-left: 20%;
+	}
+	.padauk p.span{
+
+		font-size: 1.2em;
+	}
 }
 /*padauk*/
 
