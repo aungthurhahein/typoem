@@ -179,7 +179,7 @@ a:hover{
 @media all and (max-width: 768px){
 	.padauk h2{
 		font-size: 2em;
-		letter-spacing:0;
+		letter-spacing:0;		
 	}
 	.padauk p{
 		padding-left: 20%;
@@ -215,7 +215,7 @@ a:hover{
 	 font-family: 'Droid Serif', serif;
 	 letter-spacing: 5px;
 	 text-transform: uppercase;
-	 font-size: 2em;
+	 font-size: 1.8em;
 	 text-align: center;
 	 padding:1em 0 1em 0;	
 	 color: #36454F; 
@@ -229,11 +229,12 @@ a:hover{
 	vertical-align: middle;
 	font-family: 'Convergence', sans-serif;
 	font-size: 0.6em;
-	width: 50%;
+	width: 60%;
 	margin:0 auto;	
 	text-indent: inherit;
 	padding: 1em 0 1em 0;
 	color: #F0F8FF;
+	line-height: 2;
 }
 .rain p.poet{
 	font-family: 'Oswald', sans-serif;	
@@ -251,6 +252,92 @@ a:hover{
 	color: #F5F5DC;
 }
 /*rain*/
+
+/*Mountain and Forest*/
+.mountain{
+	background: #bdc3c7 url(../imgs/mountain&forest.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+.mountain h2{
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 5px;
+	font-size: 5em;
+	font-weight: 700;	
+	text-align: center;
+    background: url(../imgs/jungle.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    -moz-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    -o-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    transition: all 2s cubic-bezier(0.42,0,0.58,1);    
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.mountain h2:hover {
+    -webkit-filter: opacity(0.6);
+}
+.mountain p{
+	font-family: 'Crete Round', serif;	
+	font-size: 2.2em;
+	line-height: 2;
+	color: #fff;
+	background: url(../imgs/lake.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    -moz-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    -o-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    transition: all 2s cubic-bezier(0.42,0,0.58,1);    
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+}
+.mountain h2 span{
+	display:block;	
+	font-weight: 400;
+	font-family: 'Crete Round', serif;	
+}
+.mountain h2 span.author{
+	font-family: 'Oswald', sans-serif;
+    font-size: 0.2em;         
+    padding-top: 10%;
+}
+.mountain span.fonts{
+	font-family: 'Oswald', sans-serif;
+    font-size: 0.6em; 
+    float: right; 
+    padding: 1em;     
+}
+.mountain span.fonts a{
+	color: #2ecc71;
+}
+.mountain span.fonts a:hover{
+	color: #27ae60;
+}
+
+
+@media all and (max-width: 768px){
+	.mountain h2{
+		letter-spacing: 2px;
+		font-size: 3.5em;
+		float: none;		
+	}
+	.mountain p{
+		font-size: 1.5em;		
+		text-align: center;
+	}
+}
+/*Mountain and Forest*/
 
 /** poem 3 **/
 .poem__3 {
