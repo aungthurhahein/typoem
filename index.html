@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- meta tags -->
-	<meta charset="UTF-8">
-	<meta name="author" content="various author" />
-	<meta name="description" content="Typography experiment with poems " />
-	<meta name="keywords"  content="web developer, myanmar, burma, software developer, programmer, poem, typography" />
-	<meta name="Resource-type" content="Document" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="imgs/favicon.ico">
-	<title>Typoem</title>
-	<!-- css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css" type='text/css'>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="various author" />
+    <meta name="description" content="Typography experiment with poems " />
+    <meta name="keywords"  content="web developer, myanmar, burma, software developer, programmer, poem, typography" />
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <title>Typoem</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" type='text/css'>
 
-	<!-- js -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
-	<!-- google-fonts -->
-	<!-- landing -->
-	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic|Playfair+Display|Lora' rel='stylesheet' type='text/css'>
+    <!-- google-fonts -->
+    <!-- landing -->
+    <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic|Playfair+Display|Lora' rel='stylesheet' type='text/css'>
 
-	<!-- pipe -->
-	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather|Oswald' rel='stylesheet' type='text/css'>
+    <!-- pipe -->
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather|Oswald' rel='stylesheet' type='text/css'>
 
-	<!-- SONG OF THE FOREST-->
-	<link href='https://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+    <!-- SONG OF THE FOREST-->
+    <link href='https://fonts.googleapis.com/css?family=Sanchez|Quattrocento+Sans' rel='stylesheet' type='text/css'>
 
-	<!-- Present of Cherrot -->
-	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <!-- Present of Cherrot -->
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
-	<!-- padauk -->
-	<link href='http://fonts.googleapis.com/css?family=Great+Vibes|Montserrat' rel='stylesheet' type='text/css'>
+    <!-- padauk -->
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Montserrat' rel='stylesheet' type='text/css'>
 
-	<!-- rain -->
-	<link href='http://fonts.googleapis.com/css?family=Convergence|Droid+Serif' rel='stylesheet' type='text/css'>
-
+    <!-- rain -->
+    <link href='http://fonts.googleapis.com/css?family=Convergence|Droid+Serif' rel='stylesheet' type='text/css'>
+    <!-- mountain and forest -->
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round|Fjalla+One' rel='stylesheet' type='text/css'>
+    <!-- lugalay -->
+    <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+<!--    Jasmine-->
+<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative|Libre+Baskerville' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            typoem.initialize();
+        })
+    </script>
 	<!-- mountain and forest -->
 	<link href='http://fonts.googleapis.com/css?family=Crete+Round|Fjalla+One' rel='stylesheet' type='text/css'>
 	<!-- lugalay -->
 	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+	<!-- remorse -->
+	<link href='http://fonts.googleapis.com/css?family=Snippet|Sacramento' rel='stylesheet' type='text/css'>
+
 	<script type="text/javascript">
 		$(document).ready(function(){
 			typoem.initialize();
@@ -50,281 +63,349 @@
 </head>
 
 <body>
-	<!-- landing page -->
-	<div class="container-fluid landing">
-		<div class="row">
-			<div class="col-md-6">
-				<h1>Classic Poems</h1>
-				<h1 class="amp">&</h1>
-				<h1>Typography</h1>
-			</div>
-			<div class="col-md-6">
-				<p>
-					<span> <i><b>Typography</b></i> 
-						is the visual components of the written word.
-					</span>
-					<span class="butterick">
-						<a href="http://practicaltypography.com/what-is-typography.html" target="_blank">Matthew Butterick</a>
-					</span>
-				</p>
-				<p>
-					Web Typography is a form of art and selecting nice fonts, <i>fundamental typography building blocks</i>, to achive beautiful typography is never easier.  From this experiment, google font pairs are hand-picked and turned into creative
-					<i>typefaces</i>
-					.
-				</p>
-				<p>
-					Verses from
-					<a href="https://archive.org/details/burmeseclassical00lustuoft" target="_blank">burmese classic poems</a>
-					are used as text content with elegant stock free images from
-					<a href="http://thestocks.im" target="_blank">thestocks.im</a>
-					.
-				</p>
-				<p>
-					Intrested to contribute this project, please pull request the repo at <a href="https://github.com/aungthurhahein/typoem" target="_blank">github</a>.
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- /landing page -->
+    <!-- landing page -->
+    <div class="container-fluid landing">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Classic Poems</h1>
+                <h1 class="amp">&</h1>
+                <h1>Typography</h1>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    <span> <i><b>Typography</b></i> 
+                        is the visual components of the written word.
+                    </span>
+                    <span class="butterick">
+                        <a href="http://practicaltypography.com/what-is-typography.html" target="_blank">Matthew Butterick</a>
+                    </span>
+                </p>
+                <p>
+                    Web Typography is a form of art and selecting nice fonts, <i>fundamental typography building blocks</i>, to achive beautiful typography is never easier.  From this experiment, google font pairs are hand-picked and turned into creative
+                    <i>typefaces</i>
+                    .
+                </p>
+                <p>
+                    Verses from
+                    <a href="https://archive.org/details/burmeseclassical00lustuoft" target="_blank">burmese classic poems</a>
+                    are used as text content with elegant stock free images from
+                    <a href="http://thestocks.im" target="_blank">thestocks.im</a>
+                    .
+                </p>
+                <p>
+                    Intrested to contribute this project, please pull request the repo at <a href="https://github.com/aungthurhahein/typoem" target="_blank">github</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- /landing page -->
 
-	<!-- short pipe -->
-	<div class="container-fluid short-pipe">
-		<div class="overflow">
-			<h2>SHORT PIPE</h2>
-			<div class="col-md-6">
-				<p>
-					A pipe... A puff...<br/>
-					short as A finger...<br/>
-					I give you<br/>
-					for smoking.
-				</p>
-			</div>
-			<div class="col-md-6">
-				<p>
-					<span class="quote">
-					If I do not take it <br/>
-					you will think me crude<br/>
-					If I accept it <br/>
-					you will think I like you.<br/><br/>
-					If you want me<br/>
-					to smoke it <br/>
-					put it near the bed,<br/>
-					my dear one.</span>
-					<span class="author">Mae Khwe</span>
-					
-				</p>
-				<span class="fonts">
-					<a href="http://www.google.com/fonts/specimen/Merriweather" target="_blank">Merriweather</a>
-					<a href="http://www.google.com/fonts/specimen/Merriweather+Sans" target="_blank">Merriweather Sans</a>
-				</span>
-			</div>
-		</div>
-	</div>
-	<!-- /short pipe -->
+    <!-- short pipe -->
+    <div class="container-fluid short-pipe">
+        <div class="overflow">
+            <h2>SHORT PIPE</h2>
+            <div class="col-md-6">
+                <p>
+                    A pipe... A puff...<br/>
+                    short as A finger...<br/>
+                    I give you<br/>
+                    for smoking.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    <span class="quote">
+                    If I do not take it <br/>
+                    you will think me crude<br/>
+                    If I accept it <br/>
+                    you will think I like you.<br/><br/>
+                    If you want me<br/>
+                    to smoke it <br/>
+                    put it near the bed,<br/>
+                    my dear one.</span>
+                    <span class="author">Mae Khwe</span>
+                    
+                </p>
+                <span class="fonts">
+                    <a href="http://www.google.com/fonts/specimen/Merriweather" target="_blank">Merriweather</a>
+                    <a href="http://www.google.com/fonts/specimen/Merriweather+Sans" target="_blank">Merriweather Sans</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- /short pipe -->
 
-	<!--SONG OF THE FOREST-->
-	<div class="container-fluid song-forest" style="font-family:Sanchez;background:transparent url('http://i.imgur.com/c6XRKB5.jpg') no-repeat top left;padding:50px;color:#f0f0f0;background-size:cover;">
-		<div class="row">
+    <!--SONG OF THE FOREST-->
+    <div class="container-fluid song-forest" style="font-family:'Quattrocento Sans',sans-serif;background:transparent url('http://i.imgur.com/c6XRKB5.jpg') no-repeat top left;padding:50px;color:#f0f0f0;background-size:cover;">
+        <div class="row">
 
-			<div class="col-md-4" style="text-align:right;">
-				<span class="fonts">
-					<a href="http://www.google.com/fonts/specimen/Sanchez" target="_blank">Sanchez</a>
-				</span>
-				<p>Fragrant and fresh</p>
-				<p>Are the whole branches</p>
-				<p>Brimming with new life</p>
-				<p>Brilliant are the leaves</p>
-				<p>All golden lights.</p>
-				<p>Pleasant are the forests</p>
-				<p>At Thingyall&#39;s festival time.</p>
-				<p>One delights to see Lingpya birds building nests</p>
-				<p>To hear cuckoos in pairs</p>
-				<p>Making heavenly melodies; and</p>
-				<p>To see a parakeet&#39;s lovely airs</p>
-				<p>Makes a maiden long to</p>
-				<p>To feed him in a cage .</p>
-				<p>&quot;Oh darling!</p>
-				<p>Catch him without delay</p>
-				<p>He is about to fly away.&#39;</p>
-			</div>
-			<div  class="col-md-8" style="font-size:45px;">
-				SONG OF THE FOREST
-				<br />
-				<span style="font-size:15px;padding-left:2em;">Princess Hlaing-Teik-Khaung-Tin</span>
-			</div>
-		</div>
-	</div>
-	<!--/SONG OF THE FOREST-->
+            <div class="col-md-4" style="text-align:right;">
+                <span class="fonts">
+                    <a href="http://www.google.com/fonts/specimen/Sanchez" target="_blank">Sanchez</a>&nbsp;
+                    <a href="http://www.google.com/fonts/specimen/Quattrocento+Sans" target="_blank">Quattrocento Sans</a>
+                </span>
+                <p>Fragrant and fresh</p>
+                <p>Are the whole branches</p>
+                <p>Brimming with new life</p>
+                <p>Brilliant are the leaves</p>
+                <p>All golden lights.</p>
+                <p>Pleasant are the forests</p>
+                <p>At Thingyall&#39;s festival time.</p>
+                <p>One delights to see Lingpya birds building nests</p>
+                <p>To hear cuckoos in pairs</p>
+                <p>Making heavenly melodies; and</p>
+                <p>To see a parakeet&#39;s lovely airs</p>
+                <p>Makes a maiden long to</p>
+                <p>To feed him in a cage .</p>
+                <p>&quot;Oh darling!</p>
+                <p>Catch him without delay</p>
+                <p>He is about to fly away.&#39;</p>
+            </div>
+            <div  class="col-md-8" style="font-size:40px;line-height:30px;font-family:Sanchez,serif;">
+                SONG OF THE FOREST
+                <br />
+                <span style="font-size:20px;">Princess Hlaing-Teik-Khaung-Tin</span>
+            </div>
+        </div>
+    </div>
+    <!--/SONG OF THE FOREST-->
 
-	<!-- Poem 3 Start -->
-	<div class="container-fluid poem__3">
-		<div class="used__font">
-			<a href="http://www.google.com/fonts/specimen/Shadows+Into+Light" target="_blank">Shadows Into Light</a>
-		</div>
-		<div class="row">
-			<h2 class="text-center">PRESENT OF A CHEROOT</h2>
-			<div class="col-md-6 col-md-offset-6">
-				<p>
-					The cheroot leaves
-					<br/>
-					I do not buy, but pluck myself.
-				</p>
-				<p>
-					I do not dry them on the fire
-					<br/>
-					I do not spread them in the sun. But for your smoking
-					<br/>
-					I dry them under my bedclothing.
-					<br/>
-					And with my teeth I trim
-					<br/>
-					These aromatic leaves.
-					<br/>
-				</p>
-				<p>
-					The cheroot I do not bind with silk
-					<br/>
-					But with common cotton thread
-					<br/>
-					To give it truly to you,
-					<br/>
-					My youthful lover in Ava.
-					<br/>
-				</p>
-			</div>
-			<div class="author">
-				<a href="javascript:void(0)" tabindex="0" data-trigger="focus" data-placement="top"  data-toggle="popover" data-content="Mae Khwe was the daughter of the Mayor of Sittaung and she was married to a Maung Swe. When King Bodopaya (Bodawphaya) ascended the throne in 1782, Mae Khwe became a Court Poetess.">Mae Khwe</a>
-			</div>
-		</div>
-	</div>
-	<!-- /Poem 3 End -->
-	<!-- padauk -->
-	<div class="container-fluid padauk">
-		<div class="row">
-			<h2>
-				THE
-				<span>GOLDEN-YELLOW</span>
-				<i>PADAUK</i>
-			</h2>
-			<p>
-				In the month of
-				<i>Tagu</i>
-				<br/>
-				From emerald green leaf-clusters
-				<br/>
-				Bloom forth
-				<span style="display: inline;">golden-yellow</span>
-				flowers.
-				<br/>
-			</p>
-			<p class="alt">
-				Truly what other flowers
-				<br/>
-				Can compare with these in beauty
-				<br/>
-				There in
-				<span style="display: inline;">padauk</span>
-				's cool breezy shade
-				<br/>
-				Where the flow of sweat ceases
-				<br/>
-				At the entrance to
-				<i>Nanda Cave</i>
-				—
-				<br/>
-				Retreat of the
-				<i>Pacceka Buddha</i>
-				.
-				<br/>
-			</p>
-			<p>
-				During one month in a year
-				<br/>
-				During one day in that month
-				<br/>
-				During that Day for the Buddha
-				<br/>
-				Padauk
-				<span style="display: inline;">blooms</span>
-				forth in theforest.
-				<br/>
-			</p>
-			<p class="alt">
-				<span>Summertime!</span>
-				The time of Thingyan has arrived.
-				<br/>
-				And glorious is the golden pollen
-				<br/>
-				Mistily blown from padauk
-				<br/>
-				And spreading its fragrance
-				<br/>
-				Along forest roads.
-				<br/>
-			</p>
-			<p>
-				Noone can describe all the marvels
-				<br/>
-				Of this royal flower
-				<br/>
-				<span>Padauk</span>
-				<span class="author">U Kyaw</span>
-			</p>
-			<span class="fonts">
-				<a href="http://www.google.com/fonts/specimen/Playfair+Display" target="_blank">Playfair Display</a>
-				<a href="http://www.google.com/fonts/specimen/Montserrat" target="_blank">Montserrat</a>
-				<a href="http://www.google.com/fonts/specimen/Great+Vibes" target="_blank">Great Vibes</a>
-			</span>
-		</div>
-	</div>
-	<!-- /padauk -->
+    <!-- Poem 3 Start -->
+    <div class="container-fluid poem__3">
+        <div class="used__font">
+            <a href="http://www.google.com/fonts/specimen/Shadows+Into+Light" target="_blank">Shadows Into Light</a>
+        </div>
+        <div class="row">
+            <h2 class="text-center">PRESENT OF A CHEROOT</h2>
+            <div class="col-md-6 col-md-offset-6">
+                <p>
+                    The cheroot leaves
+                    <br/>
+                    I do not buy, but pluck myself.
+                </p>
+                <p>
+                    I do not dry them on the fire
+                    <br/>
+                    I do not spread them in the sun. But for your smoking
+                    <br/>
+                    I dry them under my bedclothing.
+                    <br/>
+                    And with my teeth I trim
+                    <br/>
+                    These aromatic leaves.
+                    <br/>
+                </p>
+                <p>
+                    The cheroot I do not bind with silk
+                    <br/>
+                    But with common cotton thread
+                    <br/>
+                    To give it truly to you,
+                    <br/>
+                    My youthful lover in Ava.
+                    <br/>
+                </p>
+            </div>
+            <div class="author">
+                <a href="javascript:void(0)" tabindex="0" data-trigger="focus" data-placement="top"  data-toggle="popover" data-content="Mae Khwe was the daughter of the Mayor of Sittaung and she was married to a Maung Swe. When King Bodopaya (Bodawphaya) ascended the throne in 1782, Mae Khwe became a Court Poetess.">Mae Khwe</a>
+            </div>
+        </div>
+    </div>
+    <!-- /Poem 3 End -->
+    <!-- padauk -->
+    <div class="container-fluid padauk">
+        <div class="row">
+            <h2>
+                THE
+                <span>GOLDEN-YELLOW</span>
+                <i>PADAUK</i>
+            </h2>
+            <p>
+                In the month of
+                <i>Tagu</i>
+                <br/>
+                From emerald green leaf-clusters
+                <br/>
+                Bloom forth
+                <span style="display: inline;">golden-yellow</span>
+                flowers.
+                <br/>
+            </p>
+            <p class="alt">
+                Truly what other flowers
+                <br/>
+                Can compare with these in beauty
+                <br/>
+                There in
+                <span style="display: inline;">padauk</span>
+                's cool breezy shade
+                <br/>
+                Where the flow of sweat ceases
+                <br/>
+                At the entrance to
+                <i>Nanda Cave</i>
+                —
+                <br/>
+                Retreat of the
+                <i>Pacceka Buddha</i>
+                .
+                <br/>
+            </p>
+            <p>
+                During one month in a year
+                <br/>
+                During one day in that month
+                <br/>
+                During that Day for the Buddha
+                <br/>
+                Padauk
+                <span style="display: inline;">blooms</span>
+                forth in theforest.
+                <br/>
+            </p>
+            <p class="alt">
+                <span>Summertime!</span>
+                The time of Thingyan has arrived.
+                <br/>
+                And glorious is the golden pollen
+                <br/>
+                Mistily blown from padauk
+                <br/>
+                And spreading its fragrance
+                <br/>
+                Along forest roads.
+                <br/>
+            </p>
+            <p>
+                Noone can describe all the marvels
+                <br/>
+                Of this royal flower
+                <br/>
+                <span>Padauk</span>
+                <span class="author">U Kyaw</span>
+            </p>
+            <span class="fonts">
+                <a href="http://www.google.com/fonts/specimen/Playfair+Display" target="_blank">Playfair Display</a>
+                <a href="http://www.google.com/fonts/specimen/Montserrat" target="_blank">Montserrat</a>
+                <a href="http://www.google.com/fonts/specimen/Great+Vibes" target="_blank">Great Vibes</a>
+            </span>
+        </div>
+    </div>
+    <!-- /padauk -->
 
-	<!-- RAIN -->
-	<div class="container-fluid rain-container">
-		<div class="row header rain">
+    <!-- RAIN -->
+    <div class="container-fluid rain-container">
+        <div class="row header rain">
 
-			<h2>				
-				<span class="header">rain</span>				
-			</h2>
-			<p>
-				When soft breezes blow
-				<br/>
-				Rare fragrance spreads
-				<br/>
-				From the <em>saga</em> flowers
-				<br/>
-				Growing on the not far-off
-				<br/>
-				Mountain of the Giant's Palace.
-				<br/>
-			</p>
-			<p>
-				Dark becomes the horizon
-				<br/>
-				Enveloping us from the south in gloom.
-				<br/>
-				Melancholy assails my heart.
-				<br/>
-			</p>
-			<p>
-				Oh, Rain God, do not cause us sorrow!
-				<br/>
-				Do not cause us sorrow, Rain down and
-				<br/>
-				All the eight directions will look gloomy.
-				<br/>
-				And the rain will sadden us in many ways.
-				<br/>
-			</p>
-			<p class="poet">Myavati Mingyi U Sa.</p>
-			<span class="fonts">
-				<a href="http://www.google.com/fonts/specimen/Droid+Serif" target="_blank">Droid Serif</a>
-				<a href="http://www.google.com/fonts/specimen/Convergence" target="_blank">Convergence</a>
-			</span>
-		</div>
-	</div>
-	<!-- /RAIN -->
+            <h2>				
+                <span class="header">rain</span>				
+            </h2>
+            <p>
+                When soft breezes blow
+                <br/>
+                Rare fragrance spreads
+                <br/>
+                From the <em>saga</em> flowers
+                <br/>
+                Growing on the not far-off
+                <br/>
+                Mountain of the Giant's Palace.
+                <br/>
+            </p>
+            <p>
+                Dark becomes the horizon
+                <br/>
+                Enveloping us from the south in gloom.
+                <br/>
+                Melancholy assails my heart.
+                <br/>
+            </p>
+            <p>
+                Oh, Rain God, do not cause us sorrow!
+                <br/>
+                Do not cause us sorrow, Rain down and
+                <br/>
+                All the eight directions will look gloomy.
+                <br/>
+                And the rain will sadden us in many ways.
+                <br/>
+            </p>
+            <p class="poet">Myavati Mingyi U Sa.</p>
+            <span class="fonts">
+                <a href="http://www.google.com/fonts/specimen/Droid+Serif" target="_blank">Droid Serif</a>
+                <a href="http://www.google.com/fonts/specimen/Convergence" target="_blank">Convergence</a>
+            </span>
+        </div>
+    </div>
+    <!-- /RAIN -->
 
+    <!-- Mountain and Forest -->
+    <div class="container-fluid mountain">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>
+                    MOUNTAINS
+                    <span>AND</span>
+                    FORESTS				
+                <span class="author">
+                    Author Unknown
+                </span>
+                </h2>
+            </div>
+            <div class="col-md-6" >
+                <p>
+                    Ah... beautiful...
+                    <br/>
+                    The mountains
+                    <br/>
+                    The forests
+                    <br/>
+                    The quivering buds
+                    <br/>
+                    The trees caressing
+                    <br/>
+                    The birds frolicking with joy!
+                    <br/>
+                    one another.
+                    <br/>
+                </p>
+            </div>
+            <span class="fonts">
+                <a href="http://www.google.com/fonts/specimen/Fjalla+One" target="_blank">Fjalla One</a>
+                <a href="http://www.google.com/fonts/specimen/Crete+Round" target="_blank">Crete Round</a>
+            </span>
+        </div>
+    </div>
+    <!-- /Mountain and Forest -->
+    <!-- lugalay -->
+    <div class="container-fluid lugalay-container">
+        <div class="row lugalay">
+            <div class="box">
+                <h2>Lu-Ga-Lay</h2>
+                <h3>A Lullaby</h3>
+                <p>
+                    Oh little boy crying!<br/>
+                    I could I would<br/>
+                    Catch you a pigeon<br/>
+                    White, blue or black<br/>
+                </p>
+                <p>
+                    Oh little boy<br/>
+                    How hard it is<br/>
+                    To catch a pigeon<br/>
+                    White, blue or black<br/>
+                </p>
+                <p class="author">					
+                    Author Unknown
+                </p>
+                <span class="fonts">
+                    <a href="http://www.google.com/fonts/specimen/Lora" target="_blank">Lora</a>
+                    <a href="http://www.google.com/fonts/specimen/Megrim" target="_blank">Megrim</a>
+                </span>
+            </div>			
+        </div>
+    </div>
+    <!-- /lugalay -->
 	<!-- Mountain and Forest -->
 	<div class="container-fluid mountain">
 		<div class="row">
@@ -392,5 +473,84 @@
 		</div>
 	</div>
 	<!-- /lugalay -->
+
+	<!-- remorse -->
+	<div class="container-fluid poem__remorse">
+		<div class="row">
+				<h2 class="text-center">REMORSE</h2>
+				<p>
+				To gain the prize of illumination <br/>
+				I have made up my mind. <br/>
+				Then I shall have liberation <br/>
+				From the bondage of craving <i>(Tanha)</i> <br/>
+				The all consuming darkness <br/>
+				Of ignorance <i>(Avijja-asava).</i>
+				</p>
+				<p>
+				Seeking a womb for rebirth <br/>
+				In other after-death conditions <br/>
+				Many times I have experienced <br/>
+				Different forms. <br/>
+				But in whatever sphere <br/>
+				Never can it be pure.
+				</p>
+				<p>
+				Thus no longer do I seek a consort. <br/>
+				Satiated with a layman's life, <br/>
+				I renounce it all and go <br/>
+				To muse in the <span class="highlight">
+				<a href="http://en.wikipedia.org/wiki/Dharma_(Buddhism)" target="_blank">Dhamma</a></span> cave.
+				</p>
+				<div class="author text-center">U Khaing</div>
+				<div class="used__font">
+					<a href="http://www.google.com/fonts/specimen/Sacramento" target="_blank">Sacramento</a>
+					<a href="http://www.google.com/fonts/specimen/Snippet" target="_blank">Snippet</a>
+				</div>
+		</div>
+	</div>
+	<!-- /remorse -->
+	 <!--    Jasmine-->
+    <div class="container-fluid jasmine">
+        <div class="row">
+        <div class="col-md-4">           
+            <p>
+                When jasmine<br/>
+                is not in bloom<br/>
+                In palace gardens<br/>
+                Courtiers must<br/>
+                Bedeck themselves<br/>
+                Is With <em>kan</em> flowers.<br/>
+            </p>           
+            <p>
+                When jasmine<br/>
+                Is in full bloom<br/>
+                In <i>Mandalay</i>'s<br/>
+                Palace gardens<br/>
+                Courtiers never<br/>
+                Adorn themselves<br/>
+                With <em>kan</em> flowers.<br/>
+            </p>
+            <p>
+                Then <em>kan</em> flowers.<br/>
+                Find favor only<br/>
+                Among villagers.<br/>
+            </p>            
+        </div>
+        <div class="col-md-8">
+        <!--fucked up ugly mark up :(-->
+            <h2>
+                <span>J</span><span>a</span><span>s</span><span>m</span>                <span>i</span><span>n</span><span>e</span>
+            </h2>
+            <p class="author">
+                U Ponnya
+            </p>
+            <span class="fonts">
+                 <a href="http://www.google.com/fonts/specimen/Cinzel+Decorative" target="_blank">Cinzel Decorative</a>
+                    <a href="http://www.google.com/fonts/specimen/Libre+Baskerville" target="_blank">Libre Baskerville</a>
+            </span>
+        </div>        
+        </div>
+    </div>
+<!--    /jasmine-->
 </body>
 </html>

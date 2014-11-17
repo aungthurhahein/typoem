@@ -1,85 +1,88 @@
 /*overwrite bootstrap css*/
 
 html,body{
-	background-color:#1dd2af: 
+    background-color:#1dd2af: 
 }
-
+h1,h2,h3,p{
+    text-rendering: optimizeLegibility;
+}
 /*anchor link */
 a:focus {
-	outline: none;
+    outline: none;
 }
 a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /*landing page*/
 .landing{background: #282828;min-height: 690px;}
 
 .landing h1{
-	text-align: center;
-	font-size:5.5em;
-	font-family: 'Gentium Book Basic',serif;
-	color: #ecf0f1;	
+    text-align: center;
+    font-size:5.5em;
+    font-family: 'Gentium Book Basic',serif;
+    color: #ecf0f1;	
     text-transform: uppercase;
 }
 
 .landing h1.amp{
-	font-family: 'Playfair Display',serif;
+    font-family: 'Playfair Display',serif;
 }
 
 .landing p{	
-	font-family: 'Lora',serif;
-	font-size: 0.8em;
-	color: #bdc3c7;	
-	padding: 2em;
-	margin-top: 1em;
+    font-family: 'Lora',serif;
+    font-size: 0.8em;
+    color: #bdc3c7;	
+    padding: 2em;
+    margin-top: 1em;
 }
 .landing span.butterick{
-	display:block;
-	float:right;
+    display:block;
+    float:right;
 }
 .landing a:hover{
-	transition-property: background;
-	background: #2c3e50;
-	border-radius: 5px;
+    transition-property: background;
+    background: #2c3e50;
+    border-radius: 5px;
 }
 .landing a:before{
-	content: "» ";
+    content: "» ";
 }
 
 .landing span.butterick a:before{
-	content: "§1.1 ";
+    content: "§1.1 ";
 }
 @media all and (max-width: 768px){
-	.landing h1{
-		font-size: 3em;
-	}
+    .landing h1{
+        font-size: 3em;
+    }
 }
 /*landing page*/
 
 /*short_pipe*/
 .short-pipe{
-	background: #bdc3c7 url(../imgs/smoke.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
+    background: #bdc3c7 url(../imgs/smoke.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
 }
 .short-pipe h2{
-	font-family: 'Merriweather',serif;
-	font-size: 5em;
-    padding-left: 1em;
+    font-family: 'Merriweather',serif;
+    font-size: 5em;
+    margin-left: 0.8em;
     padding-top: 1em;
+    color: #bdc3c7;
 }
 .short-pipe p{
-	margin: 2em;
-	font-family: 'Merriweather Sans',sans-serif;	
-	font-size: 1.5em;
-	line-height: 1.5;
+    margin: 2em;
+    font-family: 'Merriweather Sans',sans-serif;	
+    font-size: 1.5em;
+    line-height: 1.5;
 }
 .short-pipe span{
-	display: block;	    
+    display: block;	    
 }
 .short-pipe span.author{
     font-family: 'Oswald', sans-serif;
@@ -87,207 +90,207 @@ a:hover{
     padding-left: 7em;
 }
 .short-pipe span.fonts{
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.6em; 
     float: right;  
     padding: 1em;
 }
 .short-pipe span.fonts a{
-	color: #eee;
+    color: #eee;
 }
 .short-pipe span.fonts a:hover{
-	color: #bdc3c7;
+    color: #bdc3c7;
 }
 .short-pipe p span.quote:before {
-	font-family: 'Playfair Display', sans-serif;
-	font-size: 2em;
-	content:open-quote; 
-	line-height: 0.1em;
-	margin-right: 0.25em;
-	vertical-align: -0.3em;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2em;
+    content:open-quote; 
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.3em;
 }
 .short-pipe p span.quote:after {
-	font-family: 'Playfair Display', sans-serif;
-	font-size: 2em;
-	content:close-quote;
-	line-height:.1em;
-	margin-right:.25em;
-	vertical-align:-.3em;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2em;
+    content:close-quote;
+    line-height:.1em;
+    margin-right:.25em;
+    vertical-align:-.3em;
 }
 
 @media all and (max-width: 768px){
-	.short-pipe h2{
-		font-size: 3em;
-	}
-	.short-pipe p{
-		font-size: 1.5em;
-	}
+    .short-pipe h2{
+        font-size: 3em;
+    }
+    .short-pipe p{
+        font-size: 1.5em;
+    }
 }
 /*short_pipe*/
 
 /*song forest*/
 .song-forest span.fonts{
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.6em; 
     float: left;      
 }
 .song-forest span.fonts a{
-	color: #eee;
+    color: #eee;
 }
 .song-forest span.fonts a:hover{
-	color: #bdc3c7;
+    color: #bdc3c7;
 }
 /*song forest*/
 
 /*padauk*/
 .padauk{
-	background: #f1c40f;
-	color: #c33a2c;
+    background: #f1c40f;
+    color: #c33a2c;
 }
 .padauk h2{
-	font-family: 'Playfair Display',serif;
-	font-size:4em;
-	letter-spacing: 10px; 
-	color:#c0392b;
-	text-align: center;
-	padding: 0 0 1em 0;
-	font-weight: 200;
+    font-family: 'Playfair Display',serif;
+    font-size:4em;
+    letter-spacing: 10px; 
+    color:#c0392b;
+    text-align: center;
+    padding: 0 0 1em 0;
+    font-weight: 200;
 }
 .padauk h2 span{
-	font-family:'Montserrat', serif;
-	display: block;
-	font-weight:800;
-	color: #d35400;
+    font-family:'Montserrat', serif;
+    display: block;
+    font-weight:800;
+    color: #d35400;
 }
 .padauk p{
-	font-family: 'Great Vibes', cursive;
-	font-size: 2em;
-	padding-left:10%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    padding-left:10%;
 }
 
 .padauk p.alt{
-	padding-left: 50%;	
+    padding-left: 50%;	
 }
 
 .padauk p span{		
-	font-size: 2.1em;
-	text-transform: capitalize;
-	display: block;
+    font-size: 2.1em;
+    text-transform: capitalize;
+    display: block;
 }
 .padauk span.author{    
     font-size: 0.8em;   
     padding-left: 10em;    
 }
 .padauk span.fonts{
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.6em; 
     float: right; 
     padding: 1em;     
 }
 .padauk span.fonts a{
-	color: #2980b9;
+    color: #2980b9;
 }
 .padauk span.fonts a:hover{
-	color: #3498db;
+    color: #3498db;
 }
 
 /*layout break*/
 @media all and (max-width: 768px){
-	.padauk h2{
-		font-size: 2em;
-		letter-spacing:0;		
-	}
-	.padauk p{
-		padding-left: 20%;
-		text-align: left;
-		font-size: 1em;
-		padding-bottom: 5%;
-	}
-	.padauk p.alt{
-		padding-left: 20%;
-	}
-	.padauk p.span{
+    .padauk h2{
+        font-size: 2em;
+        letter-spacing:0;		
+    }
+    .padauk p{
+        padding-left: 20%;
+        text-align: left;
+        font-size: 1em;
+        padding-bottom: 5%;
+    }
+    .padauk p.alt{
+        padding-left: 20%;
+    }
+    .padauk p.span{
 
-		font-size: 1.2em;
-	}
+        font-size: 1.2em;
+    }
 }
 /*padauk*/
 
 /*rain*/
 .rain{
-	width: 50%;
-	text-align: center;
-	margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
 .rain-container{
-	background: #bdc3c7 url(../imgs/rain.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
+    background: #bdc3c7 url(../imgs/rain.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
 }
 .rain h2{
-	 font-family: 'Droid Serif', serif;
-	 letter-spacing: 5px;
-	 text-transform: uppercase;
-	 font-size: 1.8em;
-	 text-align: center;
-	 padding:1em 0 1em 0;	
-	 color: #36454F; 
+     font-family: 'Droid Serif', serif;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+     font-size: 1.8em;
+     text-align: center;
+     padding:1em 0 1em 0;	
+     color: #36454F; 
 }
 .rain span.header{
-	border-bottom: 4px double #36454F;
-	padding-bottom:0.5em;
+    border-bottom: 4px double #36454F;
+    padding-bottom:0.5em;
 }
 .rain p{
-	vertical-align: middle;
-	font-family: 'Convergence', sans-serif;
-	font-size: 0.6em;
-	width: 60%;
-	margin:0 auto;	
-	text-indent: inherit;
-	padding: 1em 0 1em 0;
-	color: #F0F8FF;
-	line-height: 2;
+    vertical-align: middle;
+    font-family: 'Convergence', sans-serif;
+    font-size: 0.6em;
+    width: 60%;
+    margin:0 auto;	
+    text-indent: inherit;
+    padding: 1em 0 1em 0;
+    color: #F0F8FF;
+    line-height: 2;
 }
 .rain p.poet{
-	font-family: 'Oswald', sans-serif;	
+    font-family: 'Oswald', sans-serif;	
 }
 .rain span.fonts{
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.6em; 
     float: right; 
     padding: 1em;     
 }
 .rain span.fonts a{
-	color: #F0FFFF;
+    color: #F0FFFF;
 }
 .rain span.fonts a:hover{
-	color: #F5F5DC;
+    color: #F5F5DC;
 }
 /*rain*/
 
 /*Mountain and Forest*/
 .mountain{
-	background: #bdc3c7 url(../imgs/mountain&forest.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
+    background: #bdc3c7 url(../imgs/mountain&forest.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;        
     overflow: hidden;    
     cursor: url('../imgs/leaf_icon.png'), auto; /*ie*/
     cursor: -webkit-image-set(
-	  url('../imgs/leaf_icon.png') 1x,
-	  url('../imgs/leaf_icon.png') 2x
-	), auto;	    
+      url('../imgs/leaf_icon.png') 1x,
+      url('../imgs/leaf_icon.png') 2x
+    ), auto;	    
 }
 .mountain h2{
-	font-family: 'Fjalla One', sans-serif;
-	letter-spacing: 5px;
-	font-size: 5em;
-	font-weight: 700;	
-	text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 5em;
+    font-weight: 700;	
+    text-align: center;
     background: url(../imgs/jungle.jpg) no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -309,11 +312,11 @@ a:hover{
     -webkit-filter: opacity(0.6);   
 }
 .mountain p{
-	font-family: 'Crete Round', serif;	
-	font-size: 2.2em;
-	line-height: 2;
-	color: #fff;
-	background: url(../imgs/lake.jpg) no-repeat center center;
+    font-family: 'Crete Round', serif;	
+    font-size: 2.2em;
+    line-height: 2;
+    color: #fff;
+    background: url(../imgs/lake.jpg) no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -331,55 +334,55 @@ a:hover{
     padding-left: 5%;
 }
 .mountain h2 span{
-	display:block;	
-	font-weight: 400;
-	font-family: 'Crete Round', serif;	
+    display:block;	
+    font-weight: 400;
+    font-family: 'Crete Round', serif;	
 }
 .mountain h2 span.author{
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.2em;         
     padding-top: 10%;
 }
 .mountain span.fonts{
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.6em; 
     float: right; 
     padding: 1em;     
 }
 .mountain span.fonts a{
-	color: #2ecc71;
+    color: #2ecc71;
 }
 .mountain span.fonts a:hover{
-	color: #27ae60;
+    color: #27ae60;
 }
 
 @media all and (max-width: 768px){
-	.mountain h2{
-		letter-spacing: 2px;
-		font-size: 3.5em;
-		float: none;		
-	}
-	.mountain p{
-		font-size: 1.5em;		
-		text-align: center;
-	}
+    .mountain h2{
+        letter-spacing: 2px;
+        font-size: 3.5em;
+        float: none;		
+    }
+    .mountain p{
+        font-size: 1.5em;		
+        text-align: center;
+    }
 }
 /*Mountain and Forest*/
 /*lugalay*/
 .lugalay-container{
-	background: #3E3A39;
+    background: #3E3A39;
 }
 .lugalay{
-	width: 60%;
-	margin: 0 auto;	
-	color: #fff;
+    width: 60%;
+    margin: 0 auto;	
+    color: #fff;
 }
 .lugalay .box{
-	border: 5px solid #fff;	
-	margin: 25%;
-	padding: 5%;	
-	text-align: center;
-	background: url(../imgs/lugalay.jpg) no-repeat center center; /*image courtesy-http://commons.wikimedia.org/wiki/File:Pigeon_silhouette_4874.jpg*/
+    border: 5px solid #fff;	
+    margin: 25%;
+    padding: 5%;	
+    text-align: center;
+    background: url(../imgs/lugalay.jpg) no-repeat center center; /*image courtesy-http://commons.wikimedia.org/wiki/File:Pigeon_silhouette_4874.jpg*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -388,67 +391,137 @@ a:hover{
 }
 
 .lugalay .box h2{
-	font-family: 'Megrim', cursive;
-	text-transform: capitalize;
-	font-size: 2em;
-	font-weight: 400;
+    font-family: 'Megrim', cursive;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: 400;
 }
 
 .lugalay div.box h3{
-	font-family: Lora;
-	font-size: 1em;
-	margin: 0 auto;
-	padding: 0;
-	padding-bottom: 1em;
+    font-family: Lora;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 1em;
 }
 
 .lugalay div.box p{
-	color: #FFFFF0;
-	font-family: Lora;
-	font-size: 0.8em;
-	line-height: 1.5;
+    color: #FFFFF0;
+    font-family: Lora;
+    font-size: 0.8em;
+    line-height: 1.5;
 }
 
 .lugalay div.box p.author{
-	font-size: 0.6em;
+    font-size: 0.6em;
 }
 
 .lugalay div.box p.author:before{
-	content: '-';
+    content: '-';
 }
 
 .lugalay div.box p.author:after{
-	content: '-';
+    content: '-';
 }
 
 .lugalay span.fonts{
-	font-family: 'Megrim', cursive;	
+    font-family: 'Megrim', cursive;	
     font-size: 0.6em; 
     float: right; 
     padding: 1em;     
 }
 .lugalay span.fonts a{
-	color: #bdc3c7;
+    color: #bdc3c7;
 }
 .lugalay span.fonts a:hover{
-	color: #ecf0f1;
+    color: #ecf0f1;
 }
 
 @media all and (max-width: 768px){	
-	.lugalay div.box{
-		margin: 15%;			
-	}		
+    .lugalay div.box{
+        margin: 15%;			
+    }		
 }
 /*lugalay*/
+/*Jasmine*/
+.jasmine{
+background:#fff url(../imgs/jasmine-2.gif) no-repeat right center; 
+    background-size:contain;
+    -webkit-background-size:contain;
+    -moz-background-size: contain;
+    -o-background-size:contain;
+    background-size: contain;    
+    overflow: hidden;    
+}
+.jasmine h2{
+    font-family:'Cinzel Decorative',cursive;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-transform: uppercase; 
+    color: #f3e5ab;
+    text-shadow: 1px 1px 1px #000, 1px 1px 2px #eee;
+}
+.jasmine span{
+    display: block;
+    padding-bottom: 1%;
+    vertical-align:baseline;
+}
+.jasmine p{
+    font-family: 'Libre Baskerville',serif;
+    line-height: 2;
+    font-size: 0.8em;
+    padding: 5% 15% 0 25%;
+    color: #daa520;
+}
+.jasmine p.author{
+    padding: 0;
+    padding-left: 10%;
+    color: #9acd32;
+    font-size: 0.6em;
+}
 
+.jasmine span.fonts{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.6em; 
+    float: right; 
+    padding: 1em;     
+}
+.jasmine span.fonts a{
+    color: #cdc0b0;
+}
+.jasmine span.fonts a:hover{
+    color: #8b8378;
+}
+
+@media all and (max-width: 768px){	
+    .jasmine span{
+        display:inline;
+        margin-left: 2%;
+    }
+    .jasmine h2{
+        float: right;
+        padding-left: 5px;
+        font-size: 3em;
+    }
+    .jasmine p.author{
+       clear: both;
+       float: right;        
+    }
+    .jasmine span.fonts{
+        clear: both;
+        float: right;
+        padding: 0;
+    }
+}
+/*Jasmine*/
 /** poem 3 **/
 .poem__3 {
-	padding: 10%;
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 2em;
-	color: #f0f0f0;
-	background: #fff url(../imgs/poem_3.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
+    padding: 10%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    color: #f0f0f0;
+    background: #fff url(../imgs/poem_3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -456,41 +529,137 @@ a:hover{
 }
 
 .poem__3 h2 {
-	font-size: 3em;
-	margin-bottom: 10%;
+    font-size: 3em;
+    margin-bottom: 10%;
 }
 .poem__3 .used__font {
-	position: absolute;
-	left: 0;
-	top: 0;
-	font-size: 0.4em;
-	-ms-transform: rotate(270deg); /* IE 9 */
+<<<<<<< HEAD
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.4em;
+    -ms-transform: rotate(270deg); /* IE 9 */
     -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
     transform: rotate(270deg);
     margin: 5% 0 0 -3%
+=======
+>>>>>>> 16367033bce9710d1c3a33508af41ea8f4da1c1d
+	left: 0;
+	top: 0;
+	font-size: 0.4em;
+	padding: 1%;
+	position: absolute;
 }
 .poem__3 .used__font a {
-	font-size: 1em;
+    font-size: 1em;
 }
 .poem__3 a {
-	font-weight: bold;
-	font-style: italic;
-	color: #fff;
-	text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .poem__3 p:nth-child(2) {
-	margin: 7% 0 7% -20%;
+    margin: 7% 0 7% -20%;
 }
 
 .poem__3 .popover-content{
-	color: #313131;
-	font-style: italic;
-	opacity: 0.8
+    color: #313131;
+    font-style: italic;
+    opacity: 0.8
 }
 /** poem 3 **/
+/*remorse*/
+.poem__remorse {
+	font-family: 'Snippet', sans-serif;
+	padding: 5% 10% 5% 10%;
+	font-size: 1em;
+	color: #f0f0f0;
+	background: #fff url(../imgs/remorse.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.poem__remorse h2,
+.poem__remorse .author
+{
+	font-family: 'Sacramento', cursive;
+	letter-spacing: 1em;
+	
+}
+
+.poem__remorse h2 {
+	margin-bottom: 5%;
+	text-shadow: 3px 3px 4px red;
+}
 
 
+.poem__remorse p {
+	text-shadow: 3px 3px 4px #fafafa;
+	letter-spacing: 0.3em;
+	line-height: 2em;
+	margin-bottom: 5%;
+	text-align: right;
+}
+
+.poem__remorse {
+	font-family: 'Snippet', sans-serif;
+	padding: 5% 10% 5% 10%;
+	font-size: 1em;
+	color: #f0f0f0;
+	background: #fff url(../imgs/remorse.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.poem__remorse h2,
+.poem__remorse .author
+{
+	font-family: 'Sacramento', cursive;
+	letter-spacing: 1em;
+	
+}
+
+.poem__remorse h2 {
+	margin-bottom: 5%;
+	text-shadow: 3px 3px 4px red;
+}
+
+.poem__remorse p {
+	text-shadow: 3px 3px 4px #fafafa;
+	letter-spacing: 0.3em;
+	line-height: 2em;
+	margin-bottom: 5%;
+	text-align: right;
+}
+
+.poem__remorse p::first-letter {
+	font-family: 'Sacramento', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.poem__remorse .used__font {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1%;
+	font-size: 0.5em;
+}
+.poem__remorse .highlight a {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #fafafa;
+	text-shadow: 3px 3px 4px #FAEBD7;
+	font-style: italic;
+	text-decoration: underline;
+}
+/*remorse*/
 /*typesettings*/
 @media screen and (min-width: 320px){
   body{
