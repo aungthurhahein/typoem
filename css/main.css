@@ -460,14 +460,11 @@ a:hover{
 	margin-bottom: 10%;
 }
 .poem__3 .used__font {
-	position: absolute;
 	left: 0;
 	top: 0;
 	font-size: 0.4em;
-	-ms-transform: rotate(270deg); /* IE 9 */
-    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-    transform: rotate(270deg);
-    margin: 5% 0 0 -3%
+	padding: 1%;
+	position: absolute;
 }
 .poem__3 .used__font a {
 	font-size: 1em;
@@ -490,7 +487,60 @@ a:hover{
 }
 /** poem 3 **/
 
+.poem__remorse {
+	font-family: 'Snippet', sans-serif;
+	padding: 5% 10% 5% 10%;
+	font-size: 1em;
+	color: #f0f0f0;
+	background: #fff url(../imgs/remorse.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
 
+.poem__remorse h2,
+.poem__remorse .author
+{
+	font-family: 'Sacramento', cursive;
+	letter-spacing: 1em;
+	
+}
+
+.poem__remorse h2 {
+	margin-bottom: 5%;
+	text-shadow: 3px 3px 4px red;
+}
+
+.poem__remorse p {
+	text-shadow: 3px 3px 4px #fafafa;
+	letter-spacing: 0.3em;
+	line-height: 2em;
+	margin-bottom: 5%;
+	text-align: right;
+}
+
+.poem__remorse p::first-letter {
+	font-family: 'Sacramento', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.poem__remorse .used__font {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1%;
+	font-size: 0.5em;
+}
+.poem__remorse .highlight a {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #fafafa;
+	text-shadow: 3px 3px 4px #FAEBD7;
+	font-style: italic;
+	text-decoration: underline;
+}
 /*typesettings*/
 @media screen and (min-width: 320px){
   body{
