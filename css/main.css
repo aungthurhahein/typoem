@@ -80,6 +80,7 @@ a:hover{
     font-family: 'Merriweather Sans',sans-serif;	
     font-size: 1.5em;
     line-height: 1.5;
+    white-space: nowrap;
 }
 .short-pipe span{
     display: block;	    
@@ -244,15 +245,14 @@ a:hover{
     padding-bottom:0.5em;
 }
 .rain p{
-    vertical-align: middle;
+    text-align: center;
     font-family: 'Convergence', sans-serif;
     font-size: 0.6em;
     width: 60%;
     margin:0 auto;	
-    text-indent: inherit;
     padding: 1em 0 1em 0;
     color: #F0F8FF;
-    line-height: 2;
+    line-height: 2;    
 }
 .rain p.poet{
     font-family: 'Oswald', sans-serif;	
@@ -514,6 +514,54 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     }
 }
 /*Jasmine*/
+/*LOVE IN SECRET ENCOUNTERED*/
+.love{
+    background:#fff url(../imgs/love.jpg) no-repeat center center; 
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;    
+    overflow: hidden;    
+    color: #c0392b;
+}
+.love h2{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 3em;
+    margin: 0.3em;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.love p{
+    font-family: 'Vollkorn',serif;    
+    font-size: 0.8em;
+    margin: 0.5em;
+    white-space:pre-line;
+    text-transform:capitalize;
+    color: #ecf0f1;
+}
+.love p.Oneline{
+    font-size: 1.4em;
+    text-align: center;    
+}
+.love p.author{
+    clear: both;   
+    padding-left: 1%;
+    font-size: 0.6em;
+}
+.love span.fonts{
+    font-family: 'Vollkorn', serif;
+    font-size: 0.6em; 
+    float: right; 
+    padding: 1em;     
+}
+.love span.fonts a{
+    color: #2ecc71;
+}
+.love span.fonts a:hover{
+    color: #27ae60;
+}
+/*LOVE IN SECRET ENCOUNTERED*/
 /** poem 3 **/
 .poem__3 {
     padding: 10%;
