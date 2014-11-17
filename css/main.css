@@ -533,7 +533,6 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     margin-bottom: 10%;
 }
 .poem__3 .used__font {
-<<<<<<< HEAD
     position: absolute;
     left: 0;
     top: 0;
@@ -542,8 +541,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
     transform: rotate(270deg);
     margin: 5% 0 0 -3%
-=======
->>>>>>> 16367033bce9710d1c3a33508af41ea8f4da1c1d
+
 	left: 0;
 	top: 0;
 	font-size: 0.4em;
@@ -596,6 +594,31 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 	text-shadow: 3px 3px 4px red;
 }
 
+.poem__remorse {
+	font-family: 'Snippet', sans-serif;
+	padding: 5% 10% 5% 10%;
+	font-size: 1em;
+	color: #f0f0f0;
+	background: #fff url(../imgs/remorse.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.poem__remorse h2,
+.poem__remorse .author
+{
+	font-family: 'Sacramento', cursive;
+	letter-spacing: 1em;
+	
+}
+
+.poem__remorse h2 {
+	margin-bottom: 5%;
+	text-shadow: 3px 3px 4px red;
+}
 
 .poem__remorse p {
 	text-shadow: 3px 3px 4px #fafafa;
@@ -604,6 +627,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 	margin-bottom: 5%;
 	text-align: right;
 }
+
 
 .poem__remorse {
 	font-family: 'Snippet', sans-serif;
@@ -639,6 +663,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 	text-align: right;
 }
 
+
 .poem__remorse p::first-letter {
 	font-family: 'Sacramento', cursive;
 	font-size: 1.5em;
@@ -660,6 +685,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 	text-decoration: underline;
 }
 /*remorse*/
+
 /*typesettings*/
 @media screen and (min-width: 320px){
   body{
