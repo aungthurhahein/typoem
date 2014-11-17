@@ -533,15 +533,6 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     margin-bottom: 10%;
 }
 .poem__3 .used__font {
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 0.4em;
-    -ms-transform: rotate(270deg); /* IE 9 */
-    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-    transform: rotate(270deg);
-    margin: 5% 0 0 -3%
-
 	left: 0;
 	top: 0;
 	font-size: 0.4em;
