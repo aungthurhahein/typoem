@@ -568,39 +568,55 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 }
 /*LOVE IN SECRET ENCOUNTERED*/
 /*I am longing*/
-.longing{
-}
 .longing h2{
     text-transform: uppercase;
     font-family: 'Junge', serif;
     font-size: 3em;
     font-weight: 400;
     padding: 5%;
-    letter-spacing: 20px;
-    
+    letter-spacing: 20px;    
 }
 .longing h2 span{
     display: block;
     font-family: 'Ultra',serif;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.longing p{
-    font-family: 'PT Sans Narrow',sans-serif;
-    font-size: 0.8em;
+.longing p{    
+    font-family: 'Yanone Kaffeesatz',sans-serif;    
+    font-size: 0.9em;
     float: left;
     padding: 5%;    
-    white-space: nowrap;
+    white-space: nowrap; 
+    max-width: 360px;
 }
-.longing p:nth-child(2n+1){
-        font-family: 'Yanone Kaffeesatz',sans-serif;    
-    font-size: 0.9em;    
+.longing quote{
+    font-family: 'PT Sans Narrow',sans-serif;
+    display: block;
+    text-transform:lowercase;    
+    font-style: oblique;
 }
-.longing span.author{
-        font-family: 'Yanone Kaffeesatz',sans-serif;    
-    
+.longing span.author{                  
+    font-size: 0.8em;
+    float: right;
+}
+.longing span.fonts{ 
+    font-family: 'PT Sans Narrow',sans-serif;
+    clear: both;
+    font-size: 0.7em; 
+    float: right; 
+    padding: 1em;     
+}
+.longing span.fonts a{
+    color: #8b8989;
+}
+.longing span.fonts a:hover{
+    color: #8b7765;
+    text-decoration: underline;    
 }
 /*I am longing*/
+
+
 /** poem 3 **/
 .poem__3 {
     padding: 10%;
