@@ -15,7 +15,11 @@ a:hover{
 }
 
 /*landing page*/
-.landing{background: #282828;min-height: 690px;}
+.landing{
+    background: #282828;
+    padding: 1.5em;
+    padding-bottom: 3em;    
+}
 
 .landing h1{
     text-align: center;
@@ -542,7 +546,8 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 }
 .love p.Oneline{
     font-size: 1.4em;
-    text-align: center;    
+    text-align: center; 
+    color: #ff6347;
 }
 .love p.author{
     clear: both;   
@@ -562,6 +567,40 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     color: #27ae60;
 }
 /*LOVE IN SECRET ENCOUNTERED*/
+/*I am longing*/
+.longing{
+}
+.longing h2{
+    text-transform: uppercase;
+    font-family: 'Junge', serif;
+    font-size: 3em;
+    font-weight: 400;
+    padding: 5%;
+    letter-spacing: 20px;
+    
+}
+.longing h2 span{
+    display: block;
+    font-family: 'Ultra',serif;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.longing p{
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 0.8em;
+    float: left;
+    padding: 5%;    
+    white-space: nowrap;
+}
+.longing p:nth-child(2n+1){
+        font-family: 'Yanone Kaffeesatz',sans-serif;    
+    font-size: 0.9em;    
+}
+.longing span.author{
+        font-family: 'Yanone Kaffeesatz',sans-serif;    
+    
+}
+/*I am longing*/
 /** poem 3 **/
 .poem__3 {
     padding: 10%;
@@ -701,7 +740,6 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 	margin-bottom: 5%;
 	text-align: right;
 }
-
 
 .poem__remorse p::first-letter {
 	font-family: 'Sacramento', cursive;
