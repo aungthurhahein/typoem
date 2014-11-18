@@ -659,7 +659,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 .poem__3 .popover-content{
     color: #313131;
     font-style: italic;
-    opacity: 0.8
+    opacity: 0.8;
 }
 /** poem 3 **/
 /*remorse*/
@@ -678,13 +678,14 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 .poem__remorse h2,
 .poem__remorse .author
 {
-	font-family: 'Sacramento', cursive;
+	font-family: 'Lobster', cursive;
 	letter-spacing: 1em;
 	
 }
 .poem__remorse h2 {
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	text-shadow: 3px 3px 4px red;
+    font-size: 2em;
 }
 .poem__remorse p {
 	text-shadow: 3px 3px 4px #fafafa;
@@ -694,7 +695,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 	text-align: right;
 }
 .poem__remorse p::first-letter {
-	font-family: 'Sacramento', cursive;
+	font-family: 'Lobster', cursive;
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -704,6 +705,10 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 	left: 0;
 	padding: 1%;
 	font-size: 0.5em;
+}
+.poem__remorse .used__font a {
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
 }
 .poem__remorse .highlight a {
 	font-size: 1.5em;
