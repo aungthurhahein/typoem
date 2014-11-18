@@ -725,6 +725,41 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 }
 /*remorse*/
 
+
+/*mountains&forests*/
+.forest-mountain{
+    background: #fff url(../imgs/forest.jpg) no-repeat center;
+}
+
+.header-mountains > h2{
+    color: #fff;
+    font-size: 59px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.poem-container > ul {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    font-size: 28px;
+    font-weight: 100;
+    list-style: outside none none;
+    opacity: 0.65;
+}
+
+.author-container > h5 {
+    background: none repeat scroll 0 0 #fff;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 27px;
+    opacity: 0.65;
+    padding: 6px;
+    text-align: center;
+}
+
+/*mountains&forests*/
+
+
 /*typesettings*/
 @media screen and (min-width: 320px){
   body{
