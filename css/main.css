@@ -587,7 +587,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     font-size: 0.9em;
     float: left;
     padding: 5%;    
-    white-space: nowrap; 
+    white-space:nowrap;
     max-width: 360px;
 }
 .longing quote{
@@ -782,7 +782,12 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 /** painful **/
 /*DearlyLoveSon*/
 .dearly-love-son{
-    background: #fff url(../imgs/battle.jpg) no-repeat center;
+    background: #fff url(../imgs/battle.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
     font-family: 'Bitter', serif;
 }
 
