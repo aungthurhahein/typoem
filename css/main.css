@@ -566,6 +566,11 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 .love span.fonts a:hover{
     color: #27ae60;
 }
+@media all and (max-width: 768px){	
+.love h2{
+    font-size: 2em;
+}
+}
 /*LOVE IN SECRET ENCOUNTERED*/
 /*I am longing*/
 .longing h2{
@@ -573,7 +578,7 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     font-family: 'Junge', serif;
     font-size: 3em;
     font-weight: 400;
-    padding: 5%;
+    padding: 2%;
     letter-spacing: 20px;    
 }
 .longing h2 span{
@@ -583,12 +588,10 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     border-bottom: 1px solid #ccc;
 }
 .longing p{    
+    clear: both;
+    margin: 5%;
     font-family: 'Yanone Kaffeesatz',sans-serif;    
     font-size: 0.9em;
-    float: left;
-    padding: 5%;    
-    white-space:nowrap;
-    max-width: 360px;
 }
 .longing quote{
     font-family: 'PT Sans Narrow',sans-serif;
@@ -596,9 +599,10 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     text-transform:lowercase;    
     font-style: oblique;
 }
-.longing span.author{                  
+.longing span.author{    
+        font-family: 'Yanone Kaffeesatz',sans-serif;
     font-size: 0.8em;
-    float: right;
+    
 }
 .longing span.fonts{ 
     font-family: 'PT Sans Narrow',sans-serif;
@@ -615,7 +619,66 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     text-decoration: underline;    
 }
 /*I am longing*/
-
+/*sea snails*/
+.seasnail{
+    background:#fff url(../imgs/seashell2-compressed.jpg) no-repeat right center; 
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;    
+    overflow: hidden; 
+}
+.seasnail h2{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    letter-spacing: 5px;    
+}
+.seasnail h2 span{
+    display: block;
+    font-family: 'Satisfy', cursive;
+    font-size: 1em;    
+}
+.seasnail div.oval{
+    clear: both;
+    float: right;
+    padding: 2em;
+}
+.seasnail p{
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    line-height: 1.5;
+    text-align: right;
+}
+.seasnail div.fonts{
+    font-family: 'Satisfy', cursive;
+}
+.seasnail p.author{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.seasnail div.fonts a{
+     color: #2c3e50;
+}
+.seasnail div.fonts a:hover{     
+    color: #34495e;
+}
+@media all and (max-width: 768px){	
+.seasnail h2{
+    font-size: 3em;    
+}
+.seasnail p{
+    font-size: 1em;
+}
+.seasnail p.author{
+    font-size: 0.8em;
+}
+.seasnail div.fonts{
+    font-size: 0.8em;
+}
+}
+/*sea snails*/
 
 /** poem 3 **/
 .poem__3 {
@@ -660,6 +723,18 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
     color: #313131;
     font-style: italic;
     opacity: 0.8;
+}
+@media all and (max-width: 768px){	
+        .poem__3{
+        font-size: 1.5em;
+    }    
+    .poem__3 p:nth-child(2) {
+        margin: 7% 0 7% -10%;
+    }
+
+    .poem__3 h2 {
+        font-size: 2.5em;
+    }
 }
 /** poem 3 **/
 /*remorse*/
@@ -792,33 +867,52 @@ background:#fff url(../imgs/jasmine-2.gif) no-repeat right center;
 }
 
 .poem-container> h2{
+    font-family: 'Monda', sans-serif;
     color: #fff;
-    font-size: 59px;
+    font-size: 3em;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 .dearly-overlay{
     background: none repeat scroll 0 0 #000;
     color: #fff;
-    font-size: 28px;
+    font-size: 1.5em;
     font-weight: 100;
     opacity: 0.65;
-    padding: 17px;
+    padding: 1em;
 }
-
+.dearly-love-son div.fonts{
+    font-family: 'Monda', sans-serif;
+    font-size: 0.6em;
+   
+}
+.dearly-love-son div.fonts a{
+ color: #ccc;
+}
+.dearly-love-son div.fonts a:hover{
+ color: #fff;
+}
 .poem-container > ul {
     list-style: outside none none;
 }
 
 .author-container > h5 {
-    font-size: 24px;
+    font-size: 0.7em;
     font-weight: 100;
-    margin-top: 27px;
+    margin-top: 1em;
     padding: 6px;
     text-align: center;
 }
-
+@media all and (max-width: 768px){	
+.poem-container> h2{
+    font-size: 2em;
+    text-align: center;
+}
+.dearly-overlay{
+    font-size: 1em;
+}
+}
 /*DearlyLovesSon*/
 
 /*typesettings*/
