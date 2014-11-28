@@ -1,4 +1,5 @@
 ### Typography plus Burmese Classic Poems
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/aungthurhahein/typoem?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <a href="http://aungthurhahein.github.io/typoem/" target="_blank">http://aungthurhahein.github.io/typoem/</a>
 
