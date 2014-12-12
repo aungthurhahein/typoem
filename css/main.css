@@ -13,7 +13,12 @@ a:focus {
 a:hover{
     text-decoration: none;
 }
-
+.twitter img{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;    
+    margin-right: 5px;
+}
 /*landing page*/
 .landing{
     background: #282828;
@@ -57,7 +62,7 @@ a:hover{
     content: "§1.1 ";
 }
 @media all and (max-width: 768px){
-    .landing h1{
+     .landing h1{
         font-size: 3em;
     }
 }
@@ -301,9 +306,9 @@ a:hover{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;   
-    color: #fff;
+    color: #ECF0F1;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;            
     -webkit-transition: all 2s cubic-bezier(0.42,0,0.58,1);
     -moz-transition: all 2s cubic-bezier(0.42,0,0.58,1);
     -o-transition: all 2s cubic-bezier(0.42,0,0.58,1);
@@ -311,7 +316,6 @@ a:hover{
     padding-top: 10%;
     padding-left: 5%;
 }
-
 .mountain h2:hover {
     -webkit-filter: opacity(0.6);   
 }
@@ -319,16 +323,15 @@ a:hover{
     font-family: 'Crete Round', serif;	
     font-size: 2.2em;
     line-height: 2;
-    color: #fff;
+    color: #2980B9;
     background: url(../imgs/lake.jpg) no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;   
-    color: #fff;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;        
     -webkit-transition: all 2s cubic-bezier(0.42,0,0.58,1);
     -moz-transition: all 2s cubic-bezier(0.42,0,0.58,1);
     -o-transition: all 2s cubic-bezier(0.42,0,0.58,1);
@@ -337,6 +340,14 @@ a:hover{
     padding-bottom: 20%;
     padding-left: 5%;
 }
+@-moz-document url-prefix() {       
+    .mountain h2{  
+            background: none repeat scroll 0% 0%;
+        }
+    .mountain p{  
+            background: none repeat scroll 0% 0%;
+        }
+    }
 .mountain h2 span{
     display:block;	
     font-weight: 400;
